@@ -14,7 +14,7 @@
 html,body{
   scroll-behavior: smooth;
   overflow-x: hidden;
-  font-family: "Cairo",  system-ui;
+  font-family: "Cairo",  sans-serif;
 }
 :root{
   --accent-color: #051A2B;
