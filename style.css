@@ -715,3 +715,13 @@ footer .social div i{
   font-size: 5vw;
   padding: 20px 0;
 }
+.review-webwiki{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: 100px 0 10px 0;
+}
+.review-webwiki img{
+  padding: 0 20px;
+}
