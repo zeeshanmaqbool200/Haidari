@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "https://haidarischool.netlify.app/*"
+  to = "https://www.haidarischool.netlify.app/:splat"
+  status = 301
+  force = true
+  
