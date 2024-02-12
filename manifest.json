@@ -1,0 +1,16 @@
+{
+  "name": "Haidari School",
+  "short_name": "Haidari",
+  "description": "Haidari School Easy to Use Application Offline",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#051A2B",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
