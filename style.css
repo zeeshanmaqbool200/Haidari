@@ -20,12 +20,18 @@ html,body{
   --accent-color: #051A2B;
   --accent-green: #5FC84D;
 }
+#haidarischool{
+  display: none;
+}
 body{
   background: var(--accent-color) ;
   color: #E9E9E9;
 }
 span{
   color: var(--accent-green);
+}
+html.sr .box, .load-hidden, .tagline{
+  visibility: hidden;
 }
 .hero{
   height: 90vh;
@@ -133,17 +139,19 @@ main button:hover{
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 0;
-  margin: 50px 30px;
+  padding: 50px 30px;
   gap: 1rem;
-  border: solid 1px var(--accent-green);
+  background: white;
+  border-top: solid 1px var(--accent-green);
 }
 .events h3{
   font-size: 5vw;
   padding: 20px 0;
+  color: var(--accent-color);
 }
 .events .event{
-  background: white;
-  color: var(--accent-color);
+  background: var(--accent-color);
+  color: white;
   width: 80vw;
   padding: 20px;
 }
@@ -189,9 +197,17 @@ gap: 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          -webkit-transition: .5s all;
+          -moz-transition: .5s all;
+          -ms-transition: .5s all;
+          -o-transition: .5s all;
+          transition: .5s all;
 }
 .box i{
   font-size: 6vw;
+}
+.box:hover{
+  transform: scale(1.1);
 }
 /* Review*/
 .testimonial{
@@ -285,6 +301,7 @@ border: 1px solid black;
   overflow-x: hidden;
   font-family: "Inter", sans-serif;
   font-size: 14px;
+  background: white;
 }
 .staff h4{
   text-align: center;
@@ -653,7 +670,9 @@ footer p address{
  text-align: center;
  
 }
-footer .st{  position: absolute;
+footer .st{ 
+  color: var(--accent-color);
+  position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);

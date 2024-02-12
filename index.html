@@ -35,9 +35,24 @@
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="loader.css">
+  <!---- Scroll reveal---->
+  <script  src="https://unpkg.com/scrollreveal"></script>
+  
 </head>
 
 <body>
+  <div id="book-wrap">
+  <div class="book">
+	<div class="book__pg-shadow"></div>
+	<div class="book__pg"></div>
+	<div class="book__pg book__pg--2"></div>
+	<div class="book__pg book__pg--3"></div>
+	<div class="book__pg book__pg--4"></div>
+	<div class="book__pg book__pg--5"></div>
+</div>
+</div>
+<div id="haidarischool">
   <header id="nav-menu" aria-label="navigation bar">
     <div class="container">
       <div class="nav-start">
@@ -140,16 +155,16 @@
       </div>
     </div>
   </header>
-  <a href="#events">
+  <!----<a href="#events">
     <marquee behavior="left" direction="left" style="padding: 10px">Tap to See Latest School Events.</marquee>
-  </a>
+  </a>--->
   <section class="hero">
 
-    <div class="image">
+    <div class="image load-hidden">
       <img src="hero.png" alt="ALI" width="40%">
     </div>
     <div class="title">
-      <h1>
+      <h1 class="tagline">
         <span>HAIDARI</span> BRIGHT SIDE SCHOOL <br />مدرسة <span>الحيدري</span> الجانب المشرق
       </h1>
     </div>
@@ -198,7 +213,7 @@
   </section>
   <section class="staff" id="computer-staff">
     <h4> <i class="fa fa-blackboard"></i> Our Staff</h4>
-    <hr>
+   
     <div class="slider">
       <div class="swiper-staff people__slide">
         <div class="swiper-wrapper">
@@ -521,12 +536,12 @@
     <div class="social">
       <div>
         <a href="https://www.facebook.com/sterlingcomputers">
-          <i class="fa fa-facebook"></i>
+          <i class="fa-brands fa-facebook-f"></i>
         </a>
       </div>
       <div>
         <a href="https://wa.me/+916005156100">
-          <i class="fa fa-whatsapp"></i>
+          <i class="fa-brands fa-whatsapp"></i>
         </a>
       </div>
       <div>
@@ -541,6 +556,7 @@
       Crafted with <i class="fa fa-heart"></i> By <a href="https://wa.me/+916005156100">Zeeshan</a>
     </div>
   </footer>
+</div>
   <!--- Html end----->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js'>
   </script>
